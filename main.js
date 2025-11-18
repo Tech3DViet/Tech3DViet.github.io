@@ -6,7 +6,7 @@ Autodesk.Viewing.Initializer({ accessToken: '' }, async function () {
     viewer.setTheme('light-theme');
     await viewer.loadExtension('Autodesk.glTF');
     await viewer.loadExtension('Autodesk.PDF');
-    viewer.loadModel('models/rac_basic_sample_project/gltf/model.gltf');
+    viewer.loadModel('e3d_plant.glb');
     //viewer.loadModel('models/rac_basic_sample_project/glTF/model.gltf');
 });
 function loadModel(url) {
